@@ -1,0 +1,2 @@
+# TerminalMonitoringServiceFE
+Alx - Project Frontend
