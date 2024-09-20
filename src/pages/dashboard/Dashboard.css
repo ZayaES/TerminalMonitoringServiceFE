@@ -1,0 +1,163 @@
+.dashboard-boxes {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(180px, auto);
+}
+
+.box {
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid var(--altColor);
+}
+
+.box1 {
+  background: #e2f2f5;
+}
+
+.box-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box-icons > .success-check {
+  height: 20px;
+  background:  #c1eed0;
+  color: green;
+  padding: 6px;
+  border-radius: 50%;
+  font-size: 18px;
+}
+
+.increase {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:  #c1eed0;
+  border-radius: 10px;
+  padding: 3px 12px;
+  gap: 5px;
+}
+
+.increase > img {
+  object-fit: contain;
+}
+
+.increase > span {
+  font-weight: 700;
+  font-size: 14px;
+  color: green;
+}
+
+.box > h1 {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.box > p {
+  margin: 0;
+  font-weight: 300;
+}
+
+.box2 {
+  background: #f5d9d9;
+}
+
+.box-icons > .failure-check {
+  height: 20px;
+  background:  #f3c1c1;
+  color: red;
+  padding: 6px;
+  border-radius: 50%;
+  font-size: 18px;
+}
+
+
+
+.decrease {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:  #f3c1c1;
+  border-radius: 10px;
+  padding: 3px 12px;
+  gap: 5px;
+}
+
+.decrease > img {
+  object-fit: contain;
+  margin-top: 5px;
+}
+
+.decrease > span {
+  font-weight: 700;
+  font-size: 14px;
+  color: rgb(224, 70, 70);
+}
+
+.box-icons > .total-check {
+  height: 20px;
+  background:  #e6c7ec;
+  color: black;
+  padding: 6px;
+  border-radius: 50%;
+  font-size: 18px;
+} 
+
+.box4 {
+  grid-column: span 2;
+  grid-row-start: 2;
+  grid-row-end: span 2;
+  padding-bottom: 0;
+}
+
+.box4-header {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box4-header > p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.box4-header > select {
+  background: rgb(202, 200, 200) !important;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  padding: 4px 10px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 600;
+  margin: 0;
+
+}
+
+
+.box4-header > select:focus, .box4-header > select:hover{
+  border-color: hsla(209, 94%, 35%, 1);
+}
+
+
+.box4-header > select:disabled {
+  opacity: 0.5;
+}
+
+.box4-header > select > option {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+
+.box5 {
+  grid-column: span 1;
+  grid-row-start: 2; 
+  height: calc(100% + 5px);
+  padding-bottom: 0;
+}

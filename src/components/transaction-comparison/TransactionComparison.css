@@ -1,0 +1,99 @@
+.transaction-comparison {
+  margin: 0;
+}
+
+.terminals {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.terminals > h4 {
+  font-size: 19px;
+  margin: 0;
+  font-weight: 500;
+}
+
+.terminals > select {
+  background: rgb(202, 200, 200) !important;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  padding: 4px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 600;
+
+}
+
+.terminals > select:focus, .terminals > select:hover{
+  border-color: hsla(209, 94%, 35%, 1);
+}
+
+
+.terminals > select:disabled {
+  opacity: 0.5;
+}
+
+.terminals > select > option {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.terminal-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 35px 0 2px;
+}
+
+.terminal-details-label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.active-check {
+  color: green;
+  font-size: 22px;
+}
+
+.terminal-details-text {
+  margin: 0;
+} 
+
+.terminal-details-text > h5 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.terminal-details-text > span {
+  font-size: 11px;
+}
+
+.terminal-details > h4 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.completedTrans {
+  display: flex;
+  height: 13px;
+  margin: 10px 0;
+}
+
+.failed-check {
+  color: red;
+  font-size: 25px;
+}
+
+.failedTrans {
+  display: flex;
+  height: 13px;
+  margin: 10px 0;
+  margin-bottom: 0px;
+}

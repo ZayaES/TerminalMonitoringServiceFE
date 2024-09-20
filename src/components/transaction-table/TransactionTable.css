@@ -1,0 +1,35 @@
+.data-grid {
+  padding: 10px;
+}
+
+.data-grid > .MuiDataGrid-toolbarContainer {
+  flex-direction: row-reverse;
+} 
+
+.header-custom {
+  font-size: 16.5px;
+  font-weight: 900 !important; 
+}
+
+
+.status-declined {
+  background-color: #FFDADA; 
+  color: #8B0000; 
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
+  margin-top: 7px;
+}
+
+.status-approved {
+  background-color: #E6FFE6; 
+  color: #006400; 
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
+  margin-top: 7px;
+}
